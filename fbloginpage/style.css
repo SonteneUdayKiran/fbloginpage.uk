@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    margin: 3px 0px;
+    padding: 6px;
+    outline: none;
+    border: solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input[type = "submit"]{
+    background-color: royalblue;
+    color: white;
+    font-family: "italic";
+}
+p{
+    color: royalblue;
+    font-size: larger;
+}
+.CreateAccount{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    width: 250px;
+    height: 50px;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 30px;
+    outline: none;
+    border-radius:20px ;
+}
+hr{
+    border: 1.5px solid black;
+    width: 300px;
+    margin: 10px 0px;
+}
+footer{
+    margin: 0;
+    padding: 0%;
+    font-size: 20px;
+    text-align: end;
+    color: hsl(243, 57%, 40%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
